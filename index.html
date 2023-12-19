@@ -71,7 +71,7 @@
         background-color: #a2d2ff;
         height: 30px;
         }
-      /* Second page photo captions */
+      /* All pages photo captions */
       .slidecaption {
         font-size: 17px;
         }
@@ -80,6 +80,26 @@
         font-size: 17px;
         margin-top: 900px; 
         }
+      /* Link States */
+      /* unvisited link */
+.slidecaption a:link {
+  color: blue;
+}
+      
+      /* visited link */
+.slidecaption a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+.slidecaption a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.slidecaption a:active {
+  color: green;
+}
     </style>
 </head>
 
@@ -184,7 +204,19 @@
   
   <!--third page-->
   <div class="hobby">
-    <h2>Inspiration - AVIATION 100</h2></div>
+    <h2>Hobbies - Flight Tracking and Plane Seeking</h2>
+  <p>I like to do flight tracking and plane seeking in my free time. Along with flight tracking, I listen to ATC Departure and Arrivals of certain airports to listen to conversations between airline pilots and ATC. Sometimes, I also go plane seeking at airports.</p>
+  </div>
+  
+  <figure>
+        <img src="Flightradar24.jpg"  alt="Ground handling" width="400" height="230">
+        <div class="slidecaption">Flight Tracker:<b><a href="https://globe.adsbexchange.com/" target="_blank"> Adsbexchange</a></b></div>
+    </figure>
+  
+  <figure>
+        <img src="Flightradar24.jpg"  alt="Ground handling" width="400" height="230">
+        <div class="slidecaption">Flight Tracker:<b><a href="https://globe.adsbexchange.com/" target="_blank"> Adsbexchange</a></b></div>
+    </figure>
 </body>
 
 </html>
