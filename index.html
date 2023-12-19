@@ -12,6 +12,10 @@
             background-color: #90e0ef;
             font-family: "Calibri"
         }
+      h1{
+        margin-top: 0;
+       margin-bottom: 0; 
+      }
       
       ul {
         list-style-type: none;
@@ -37,6 +41,11 @@
       li a:hover {
         background-color: #a482b7;
       }
+      /* Home */
+      .home{
+        margin-top: 15px;
+        margin-left: 10px;
+      }
       /* Pictures in homepage */
       figure {
         margin-top: 15px;
@@ -52,8 +61,8 @@
         .about-me-container {
         font-size: 20px;
             width: 500px;
-            margin-top: 250px; 
-            margin-left: 20px; 
+            margin-top: 280px; 
+            margin-left: 10px; 
           margin-bottom: 50px;/* Separate page 1&2*/
             padding: 10px;
             border: 3px solid #a482b7;
@@ -124,14 +133,18 @@
 
 <body>
    <!--first page-->
+   <!--table of contents-->
   <ul>
-       <li><a href="empty">HOME</a></li>
-       <li><a href="empty">INSPIRATION</a></li>
-       <li><a href="empty">HOBBIES</a></li>
-       <li><a href="empty">EXPERIENCE</a></li>
-      <li><a href="empty">CONTACT ME</a></li>
+       <li><a href="#Home">HOME</a></li>
+       <li><a href="#Inspiration - AVIATION 100">INSPIRATION</a></li>
+       <li><a href="#Hobbies - Flight Tracking and Plane Seeking">HOBBIES</a></li>
+       <li><a href="#Experience - Discovery Flight and Airline Flights">EXPERIENCE</a></li>
+      <li><a href="#Contact Me">CONTACT ME</a></li>
     </ul>
    
+    <div class="home">
+      <h1><a name="Home">Home</a></h1>
+    </div> 
     <figure>
         <img src="airplane-sky-passenger-airliner-aircraft-36217123.jpg"  alt="Plane from below" width="200" height="200">
         <figcaption>Photo: Dreamstime</figcaption>
@@ -153,8 +166,9 @@
 </div>
 
   <!--second page-->
-  <div class="inspiration">
-  <h2>Inspiration - AVIATION 100</h2>
+  <div class="inspiration" id="Inspiration">
+  <h2><a name="Inspiration - AVIATION 100">Inspiration - AVIATION 100</a></h2>
+   
   <p>I took the course AVIA 100 at University of Waterloo and I learnt about aircraft, airlines, navigation, airports, security, safety, and so on. This course sparked my interest in aviation. Below is a table sourced from my textbook demonstrating different aircraft types:</p></div>
   
   <table style="width:80%">
@@ -223,7 +237,8 @@
   
   <!--third page-->
   <div class="hobby">
-    <h2>Hobbies - Flight Tracking and Plane Seeking</h2>
+    <h2><a name="Hobbies - Flight Tracking and Plane Seeking">Hobbies - Flight Tracking and Plane Seeking</a></h2>
+    
   <p>I like to do flight tracking and plane seeking in my free time. Along with flight tracking, I listen to ATC Departure and Arrivals of certain airports to listen to conversations between airline pilots and ATC. Sometimes, I also go plane seeking at airports.</p>
   </div>
   
@@ -249,7 +264,8 @@
   
   <!--fourth page-->
   <div class="experience">
-  <h2>Experience - Discovery Flight and Airline Flights</h2>
+    <h2><a name="Experience - Discovery Flight and Airline Flights">Experience - Discovery Flight and Airline Flights</a></h2>
+    
   <p>I flew in a grey Cirrus SR20 to do a discovery flight along the CN Tower in downtown Toronto, and the experience was breathtaking! Other than that, I have experienced airline flights too.</p>
   </div>
   
@@ -290,7 +306,7 @@
   
   <!--fifth page-->
     <div class="contact">
-     <h2>Contact Me</h2>
+      <h2><a name="Contact Me">Contact Me</a></h2>
     
      <p>Email: <b><a href="mailto:sfzhao@uwaterloo.ca">sfzhao@uwaterloo.ca</a></b></p>
       
